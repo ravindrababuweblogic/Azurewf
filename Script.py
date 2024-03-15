@@ -67,6 +67,13 @@ def voicetest():
 
     # Check if the recognized text matches the expected pattern and proceed accordingly
 
+@app.route('/logout', methods=['GET', 'POST'])
+def logout():
+    session['logged_in'] = False
+    return redirect(url_for('index'))
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8000)))
+if(__name__ == '__main__'):
+    app.secret_key = "ThisIsNotASecret:p"
+    with app.app_context():
+        db.create_all()
+    app.run()
