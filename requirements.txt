@@ -1,6 +1,6 @@
 azure-cognitiveservices-speech
 pathlib
-random
+pyrandom
 pyaudio
 pydub
 audio_segment
