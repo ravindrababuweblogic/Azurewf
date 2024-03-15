@@ -3,6 +3,5 @@ pathlib
 pyrandom
 pyaudio
 pydub
-audio_segment
 pyttsx3
 flask
