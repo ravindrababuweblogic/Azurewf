@@ -1,5 +1,3 @@
-
-speech-recognition
 azure-cognitiveservices-speech
 os
 random
