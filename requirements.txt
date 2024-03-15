@@ -1,7 +1,7 @@
 azure-cognitiveservices-speech
 pathlib
 pyrandom
-pyaudio
+sounddevice
 pydub
 pyttsx3
 flask
